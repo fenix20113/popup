@@ -1,0 +1,15 @@
+#container {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#B49999, EndColorStr=#DEEEEE, GradientType=0)";
+}
+
+#header .search .field{
+    height:40px;
+    width:200px;
+    line-height:39px;
+
+}
+
+
+#content .img div {
+    background-image: url("../images/bg_transparent.png");
+}

@@ -1,0 +1,125 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.popup-box {
+
+    width: 426px;
+    position: absolute;
+    display: none;
+    z-index: 9999999;
+    font-size: 14px;
+
+}
+.popup-box .clear {
+    clear: both;
+}
+.popup-box .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: #434343;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.popup-box .close:hover {
+    color: #fff;
+}
+
+.popup-box textarea,
+.popup-box input,
+.popup-box select {
+    width: 384px;
+    margin: 12px 0 20px 0;
+}
+.popup-box select {
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+   }
+.popup-box #subm {
+    border: 3px solid #20ac00;
+    background: none;
+    color: #20ac00;
+}
+.popup-box #subm:hover {
+    border: 3px solid #20ac00;
+    background: #20ac00;
+    color: #fff;
+}
+.popup-box input.checkbox {
+  
+}
+.popup-box #clear {
+    border: 3px solid #ff0000;
+    color: #ff0000;
+    background: none;
+}
+.popup-box #clear:hover {
+    border: 3px solid #ff0000;
+    color: #fff;
+    background: #ff0000;
+}
+.popup-box #subm,
+.popup-box #clear {
+    border-radius: 17px;
+    width: 177px;
+    height: 31px;
+    line-height: 20px;
+    text-transform: lowercase;
+    font-size: 20px;
+    margin:  14px 5px 0;
+}
+.popup-box textarea {
+    resize: none;
+    height: 128px;
+}
+.popup-box h2 {
+    font-size: 36px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+
+}
+.popup-box .top {
+    padding: 20px;
+}
+.popup-box form {
+    font-size: 18px;
+    padding: 15px 20px ;
+}
+.popup-box input,
+.popup-box select{
+    height: 33px;
+
+}
+.popup-box .bottom {
+    color: #0098e8;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 426px;
+    height: 450px;
+    box-shadow: 1px 1px 10px #000;
+    -moz-box-shadow: 1px 1px 10px #000;
+    -o-box-shadow: 1px 1px 10px #000;
+    -webkit-box-shadow: 1px 1px 10px #000;
+}
+.popup-box label {
+    line-height: 18px;
+}
+#blackout {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    z-index: 999999;
+    left: 0;
+    display: none;
+}

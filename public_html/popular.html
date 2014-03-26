@@ -1,0 +1,318 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>home</title>
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css">
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('.menu li').hover(
+
+                    function () {
+                        $(this).children('ul').stop(true).slideDown(200);
+                    }, function () {
+                        $(this).children('ul').stop(true).slideUp(200);
+                    }
+            );
+        });
+    </script>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+<div id="container">
+<div id="header">
+    <div class="nav">
+
+        <ul class="menu">
+            <li><a href="#">Мои фильмы</a></li>
+            <li><a href="#">Мои каналы</a>
+            <li><a href="#">Мои записи</a></li>
+            <li><a href="#">Моё любимое</a></li>
+            <li class="active">
+                <a href="#">Каталог</a>
+
+                <ul>
+                    <li><a href="#">Мои фильмы</a></li>
+                    <li><a href="#">Мои каналы</a></li>
+                    <li><a href="#">Мои записи</a></li>
+                    <li><a href="#">Моё любимое</a></li>
+                </ul>
+
+            </li>
+        </ul>
+
+        <ul class="reg">
+            <li class="user"><a href="#">Akipelov</a></li>
+            <li><a href="#">Выход</a></li>
+        </ul>
+    </div>
+    <!-- end nav -->
+    <div id="logo"></div>
+    <form name="search" class="search">
+        <input type="text" name="search" value="Поиск"  onclick="if (this.value == 'Поиск') { this.value='' } ;" onblur="if (this.value=='') { this.value='Поиск'; }"  class="field">
+    </form>
+
+</div>
+<!-- end header -->
+
+<div id="content">
+<div class="hcont">
+    <h2> Пакеты каналов</h2>
+
+    <div class="filter">
+        <span> Сортировать по </span>
+        <ul>
+            <li class="selected"><a href="#"><span>алфавиту</span></a></li>
+            <li><a href="#"><span>популярности</span></a></li>
+        </ul>
+    </div>
+    <!-- end filter -->
+    <div class="clear"></div>
+    <ul class="sort">
+        <li class="active"><a href="index.html"><span>новые</span></a></li>
+        <li><a href="#"><span>популярные</span></a></li>
+        <li><a href="all.html"><span>все</span></a></li>
+
+    </ul>
+
+</div>
+<!-- end hcont -->
+<div class="main">
+<div id="item-list">
+
+
+<div class="row cfh">
+
+    <div class="item">
+        <ul>
+            <li class="img"><img src="images/catalog.png">
+
+                <div>
+                    <p><span>24</span>каналов</p>
+
+                    <p><span>56</span>подписчиков</p>
+                </div>
+
+            </li>
+            <li class="type">
+                <p>Музыкальные</p>
+            </li>
+            <li class="price">
+                <p>240 <span class="currency">(аренда на месяц)</p>
+            </li>
+            <li class="detail">
+                <p> Оплачен до:<span class="date">23.11.2013</span></p>
+
+                <p>Осталось: <span>2 дня, 12часов, 42    минуты</span></p>
+            </li>
+            <li class="subscribe">
+                <a href="#">подписаться</a>
+            </li>
+
+            <li class="readmore">
+                <a href="#">подробнее</a>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li class="img"><img src="images/catalog.png">
+
+                <div>
+                    <p><span>24</span>каналов</p>
+
+                    <p><span>56</span>подписчиков</p>
+                </div>
+
+            </li>
+            <li class="type">
+                <p>Музыкальные</p>
+            </li>
+            <li class="price">
+                <p>240 <span class="currency">(аренда на месяц)</p>
+            </li>
+            <li class="detail">
+                <p> Оплачен до:<span class="date">23.11.2013</span></p>
+
+                <p>Осталось <span>2 дня, 12часов, 42 минуты</span></p>
+            </li>
+            <li class="subscribe">
+                <a href="#">подписаться</a>
+            </li>
+
+            <li class="readmore">
+                <a href="#">подробнее</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end row-->
+
+
+<div class="row serial">
+
+
+    <div class="item">
+        <ul>
+            <li class="img"><img src="images/catalog.png">
+
+                <div>
+                    <p><span>24</span>каналов</p>
+
+                    <p><span>56</span>подписчиков</p>
+                </div>
+
+            </li>
+            <li class="type">
+                <p>Музыкальные</p>
+            </li>
+            <li class="price">
+                <p>240 <span class="currency">(аренда на месяц)</p>
+            </li>
+            <li class="detail">
+                <p> Оплачен до:<span class="date">23.11.2013</span></p>
+
+                <p>Осталось <span>2 дня, 12часов, 42    минуты</span></p>
+            </li>
+            <li class="subscribe">
+                <a href="#">подписаться</a>
+            </li>
+
+            <li class="readmore">
+                <a href="#">подробнее</a>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li class="img"><img src="images/catalog.png">
+
+                <div>
+                    <p><span>24</span>каналов</p>
+
+                    <p><span>56</span>подписчиков</p>
+                </div>
+
+            </li>
+            <li class="type">
+                <p>Музыкальные</p>
+            </li>
+            <li class="price">
+                <p>240 <span class="currency">(аренда на месяц)</p>
+            </li>
+            <li class="detail">
+                <p> Оплачен до:<span class="date">23.11.2013</span></p>
+
+                <p>Осталось <span>2 дня, 12часов, 42    минуты</span></p>
+            </li>
+            <li class="subscribe">
+                <a href="#">подписаться</a>
+            </li>
+
+            <li class="readmore">
+                <a href="#">подробнее</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end row-->
+<div class="row music">
+
+    <div class="item">
+        <ul>
+            <li class="img"><img src="images/catalog.png">
+
+                <div>
+                    <p><span>24</span>каналов</p>
+
+                    <p><span>56</span>подписчиков</p>
+                </div>
+
+            </li>
+            <li class="type">
+                <p>Музыкальные</p>
+            </li>
+            <li class="price">
+                <p>240 <span class="currency">(аренда на месяц)</p>
+            </li>
+            <li class="detail">
+                <p> Оплачен до:<span class="date">23.11.2013</span></p>
+
+                <p>Осталось <span>2 дня, 12часов, 42    минуты</span></p>
+            </li>
+            <li class="subscribe">
+                <a href="#">подписаться</a>
+            </li>
+
+            <li class="readmore">
+                <a href="#">подробнее</a>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li class="img"><img src="images/catalog.png">
+
+                <div>
+                    <p><span>24</span>каналов</p>
+
+                    <p><span>56</span>подписчиков</p>
+                </div>
+
+            </li>
+            <li class="type">
+                <p>Музыкальные</p>
+            </li>
+            <li class="price">
+                <p>240 <span class="currency">(аренда на месяц)</p>
+            </li>
+            <li class="detail">
+                <p> Оплачен до:<span class="date">23.11.2013</span></p>
+
+                <p>Осталось <span>2 дня, 12часов, 42    минуты</span></p>
+            </li>
+            <li class="subscribe">
+                <a href="#">подписаться</a>
+            </li>
+
+            <li class="readmore">
+                <a href="#">подробнее</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end row-->
+</div>
+<!-- end item-list-->
+
+
+</div>
+<!-- end main -->
+</div>
+<!-- end content -->
+<div id="footer">
+    <div class="flogo"></div>
+    <ul class="fnav">
+        <li><a href="#">Пакеты каналов</a></li>
+        <li><a href="#">Фильмы</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Правила использования</a></li>
+    </ul>
+
+</div>
+<!-- end footer-->
+</div>
+<!-- end container -->
+</body>
+</html>
